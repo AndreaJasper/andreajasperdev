@@ -1,3 +1,6 @@
+import React from "react";
+import { techStackDetails, personalDetails } from "../Details";
+
 export default function About() {
     return (
         <>
@@ -15,8 +18,7 @@ export default function About() {
                             <div className="lg:max-w-lg">
                                 <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Amazing headline here</h2>
                                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                                    iste dolor cupiditate blanditiis ratione.
+                                    {personalDetails.about}
                                 </p>
                             </div>
                         </div>
@@ -24,38 +26,19 @@ export default function About() {
                 </div>
             </div>
             <div className="pt-24 sm:pt-32">
-                <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                    <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-6">
-                        {/* refactor to map through tech stack on details page */}
-                        <div className="lg:max-w-lg">
-                            <p className="mt-6 text-lg leading-8 text-gray-600">
-                                Rails
-                            </p>
-                        </div>
-                        <div className="lg:max-w-lg">
-                            <p className="mt-6 text-lg leading-8 text-gray-600">
-                                Rails
-                            </p>
-                        </div>
-                        <div className="lg:max-w-lg">
-                            <p className="mt-6 text-lg leading-8 text-gray-600">
-                                Rails
-                            </p>
-                        </div>
-                        <div className="lg:max-w-lg">
-                            <p className="mt-6 text-lg leading-8 text-gray-600">
-                                Rails
-                            </p>
-                        </div>
-                        <div className="lg:max-w-lg">
-                            <p className="mt-6 text-lg leading-8 text-gray-600">
-                                Rails
-                            </p>
-                        </div>
-                        <div className="lg:max-w-lg">
-                            <p className="mt-6 text-lg leading-8 text-gray-600">
-                                Rails
-                            </p>
+                <div className="py-24 sm:py-32 bg-zinc-200">
+                    <div className="mx-auto max-w-7xl px-6 lg:px-8 sm:text-center">
+                        <h2 className="mt-2 mb-16 text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">Technologies</h2>
+                        <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-6">
+                            {React.Children.toArray(
+                                techStackDetails.map(({ Name, Icon }) => (
+                                    <div className="lg:max-w-lg">
+                                        {Icon}
+                                        <p className="mt-6 text-lg leading-8 text-gray-600">
+                                    {Name}</p>
+                                    </div>
+                                ))
+                            )}
                         </div>
                     </div>
                 </div>
@@ -66,8 +49,7 @@ export default function About() {
                         <div className="lg:max-w-lg">
                             <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Values</h2>
                             <p className="mt-6 text-lg leading-8 text-gray-600">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                                iste dolor cupiditate blanditiis ratione.
+                                {personalDetails.values}
                             </p>
                         </div>
                         <div className="lg:pl-16 lg:pt-4">
@@ -96,8 +78,7 @@ export default function About() {
                             <div className="lg:max-w-lg">
                                 <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Amazing headline here</h2>
                                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                                    iste dolor cupiditate blanditiis ratione.
+                                    {personalDetails.other}
                                 </p>
                             </div>
                         </div>
