@@ -31,11 +31,11 @@ export default function About() {
                         <h2 className="mt-2 mb-16 text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">Technologies</h2>
                         <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-6">
                             {React.Children.toArray(
-                                techStackDetails.map(({ Name, Icon }) => (
+                                techStackDetails.map(({ name, icon }) => (
                                     <div className="lg:max-w-lg">
-                                        {Icon}
+                                        {icon}
                                         <p className="mt-6 text-lg leading-8 text-gray-600">
-                                    {Name}</p>
+                                    {name}</p>
                                     </div>
                                 ))
                             )}
