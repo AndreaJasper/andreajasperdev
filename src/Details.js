@@ -97,30 +97,30 @@ export const personalDetails = {
 // Tech Stack and Tools
 export const techStackDetails = [
     {
-        Name: "Rails",
-        Icon: logo,
+        name: "Rails",
+        icon: logo,
     },
     {
-        Name: "React",
-        Icon: logo,
+        name: "React",
+        icon: logo,
     },
     {
-        Name: "MySQL",
-        Icon: logo,
+        name: "MySQL",
+        icon: logo,
     },
     {
-        Name: "JavaScript",
-        Icon: logo,
+        name: "JavaScript",
+        icon: logo,
     },
     {
-        Name: "Git",
-        Icon: logo,
+        name: "Git",
+        icon: logo,
     },
     {
-        Name: "Project Management",
-        Icon: logo,
+        name: "Project Management",
+        icon: logo,
     },
-   
+
     // js: js,
     // html: html,
     // css: css,
@@ -133,58 +133,6 @@ export const techStackDetails = [
     // npm: npm,
     // github: github,
 ];
-
-// Enter your Project Details here
-// export const projectDetails = [
-//     {
-//         title: "Hapyn - Baic Post to Rich Text",
-//         image: hapynOne,
-//         description: `Hapyn is an emerging social media platform focused on facilitating connections for professional networking. I implemented an innovative rich text feature that empowers users to craft more comprehensive, visually appealing, and engaging posts.`,
-//         techstack: "React on Rails, HTML/CSS, JavaScript, CKEditor",
-//         previewLink: "https://hapyn.com/",
-//         githubLink: "",
-//     },
-//     {
-//         title: "Hapyn - Single Page Resource",
-//         image: hapynTwo,
-//         description: `Hapyn is a growing social media platform with a primary focus on enhancing professional networking opportunities. I revamped their resource section to enable users to create any resource from a single page, streamlining the previous multi-step process.`,
-//         techstack: "React on Rails, HTML/CSS, JavaScript",
-//         previewLink: "https://hapyn.com/",
-//         githubLink: "",
-//     },
-//     {
-//         title: "Magnum Piering - Webpacker Update",
-//         image: magnum,
-//         description: `Magnum Pieiring specializes in the design and production of top-tier steel foundation products. I performed a manual update on the Webpacker gem, transitioning to a more current and supported version while ensuring compatibility and preserving the app's functionality.`,
-//         techstack: "JavaScript, Custom config files",
-//         previewLink: "https://www.magnumpiering.com/magnum-geo-app/",
-//         githubLink: "",
-//     },
-//     {
-//         title: "Mimi Connect - Map Location",
-//         image: mimiOne,
-//         description: `Mimi Connect enables families to connect with assisted care facilities, helping them discover the ideal match for their loved ones. I helped implement a new Google Maps feature that allows users to search within a specified radius of their current location and also change their location to explore all available communities.`,
-//         techstack: "Ruby on Rails, React, HTML/CSS, JavaScript, Google API, Geocoder",
-//         previewLink: "",
-//         githubLink: "",
-//     },
-//     {
-//         title: "Mimi Connect - User Chat System",
-//         image: mimiTwo,
-//         description: `Mimi Connect empowers families to establish connections with assisted care facilities, facilitating the search for the perfect fit for their loved ones. I assisted in implementing a chat feature that enables users to engage in conversations with the staff at care facilities. All authorized staff members at the care facility will receive notifications when a message is received`,
-//         techstack: "Ruby on Rails, React, JavaScript",
-//         previewLink: "",
-//         githubLink: "",
-//     },
-//     {
-//         title: "JobTrackr - Personal Job Search App",
-//         image: jobtrackr,
-//         description: `Job Trackr is a personal project crafted to serve as a tool for monitoring and optimizing my job search endeavors. This application allows me to meticulously document each application, capturing essential details such as the company name, application date, job title, and my primary point of contact within the organization.`,
-//         techstack: "Ruby on Rails, HTML/CSS, Linux, Bootstrap, SQLite",
-//         previewLink: "",
-//         githubLink: "https://github.com/AndreaJasper/application-tracker/tree/master",
-//     },
-// ];
 
 // Enter your Contact Details here
 // export const contactDetails = {
