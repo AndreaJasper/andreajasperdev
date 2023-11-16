@@ -1,6 +1,6 @@
 // Enter all your detials in this file
 // Logo images
-import logo from "./assets/logo192.png";
+import logo from "./assets/logo48x42.png";
 // Tech stack images
 // import html from "./assets/techstack/html.png";
 // import css from "./assets/techstack/css.png";
@@ -36,12 +36,12 @@ export const personalDetails = {
 };
 
 // Enter your Social Media URLs here
-// export const socialMediaUrl = {
-//     linkdein: "https://www.linkedin.com/in/andrea-jasper/",
-//     github: "https://github.com/AndreaJasper",
-//     twitter: "https://twitter.com/AndreaJasp5770",
-//     // instagram: "https://www.instagram.com/",
-// };
+export const socialMediaUrl = {
+    linkedin: "https://www.linkedin.com/in/andrea-jasper/",
+    github: "https://github.com/AndreaJasper",
+    twitter: "https://twitter.com/AndreaJasp5770",
+    // instagram: "https://www.instagram.com/",
+};
 
 
 // Enter your Work Experience here
