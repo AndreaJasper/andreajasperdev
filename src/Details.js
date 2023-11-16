@@ -135,7 +135,7 @@ export const techStackDetails = [
 ];
 
 // Enter your Contact Details here
-// export const contactDetails = {
-//     email: "hi@example.com",
-//     phone: "+91 12345 67890",
-// };
+export const contactDetails = {
+    email: "hi@example.com",
+    phone: "+91 12345 67890",
+};
