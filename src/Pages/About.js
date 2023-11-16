@@ -2,6 +2,8 @@ import React from "react";
 import { techStackDetails, personalDetails } from "../Details";
 
 export default function About() {
+    const { about, values, other } = personalDetails;
+
     return (
         <>
             <div className="pt-24 sm:pt-32">
@@ -18,7 +20,7 @@ export default function About() {
                             <div className="lg:max-w-lg">
                                 <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Amazing headline here</h2>
                                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                                    {personalDetails.about}
+                                    {about}
                                 </p>
                             </div>
                         </div>
@@ -49,7 +51,7 @@ export default function About() {
                         <div className="lg:max-w-lg">
                             <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Values</h2>
                             <p className="mt-6 text-lg leading-8 text-gray-600">
-                                {personalDetails.values}
+                                {values}
                             </p>
                         </div>
                         <div className="lg:pl-16 lg:pt-4">
@@ -78,7 +80,7 @@ export default function About() {
                             <div className="lg:max-w-lg">
                                 <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Amazing headline here</h2>
                                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                                    {personalDetails.other}
+                                    {other}
                                 </p>
                             </div>
                         </div>

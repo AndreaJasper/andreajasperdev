@@ -10,15 +10,13 @@ export default function Projects() {
                     <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                         {React.Children.toArray(
                             projectDetails.map(({ title, description, link }) => (
-                                <Link to="{link}">
-                                    <div className="border border-gray-600 rounded-xl lg:max-w-xl">
-                                        <div className="p-8">
-                                            <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{title}</h2>
-                                            <p className="mt-6 text-lg leading-8 text-gray-600 pb-8">{description}</p>
-                                            <p>Read More <span aria-hidden="true">→</span></p>
-                                        </div>
+                                <div className="border border-gray-600 rounded-xl lg:max-w-xl">
+                                    <div className="p-8">
+                                        <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{title}</h2>
+                                        <p className="mt-6 text-lg leading-8 text-gray-600 pb-8">{description}</p>
+                                        <Link to="/project">Read More <span aria-hidden="true">→</span></Link>
                                     </div>
-                                </Link>
+                                </div>
                             ))
                         )}
                     </div>
