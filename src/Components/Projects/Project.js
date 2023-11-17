@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import { projectDetails } from "../ProjectDetails";
+import { projectDetails } from "../../ProjectDetails";
 
 export default function Project() {
     const {description, techstack, previewLink, githubLink, challenges, lessons} = projectDetails;
-    
+
     return (
         <>
             <div className="py-24 sm:pt-32">
