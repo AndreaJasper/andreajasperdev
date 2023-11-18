@@ -40,17 +40,17 @@ export default function Header() {
                 <div className="flex lg:flex-1 lg:justify-center">
                     <ul className="font-medium md:flex md:space-x-5 md:mr-10 lg:gap-x-20">
                         <li className="pb-1 md:pb-0 hover:text-violet-400">
-                            <NavLink to="/" onClick={toggleClass} className="text-sm font-semibold leading-6 text-gray-900">
+                            <NavLink to="/" onClick={toggleClass} className="text-lg font-semibold leading-6 text-gray-900">
                                 Home
                             </NavLink>
                         </li>
                         <li className="pb-1 md:pb-0 hover:text-violet-400">
-                            <NavLink to="/projects" onClick={toggleClass} className="text-sm font-semibold leading-6 text-gray-900">
+                            <NavLink to="/projects" onClick={toggleClass} className="text-lg font-semibold leading-6 text-gray-900">
                                 Projects
                             </NavLink>
                         </li>
                         <li className="pb-1 md:pb-0 hover:text-violet-400">
-                            <NavLink to="/about" onClick={toggleClass} className="text-sm font-semibold leading-6 text-gray-900">
+                            <NavLink to="/about" onClick={toggleClass} className="text-lg font-semibold leading-6 text-gray-900">
                                 About
                             </NavLink>
                         </li>
